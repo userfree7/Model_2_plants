@@ -1,0 +1,35 @@
+@mixin flex() {
+  display: flex;
+  // justify-content: flex-start;
+  // align-items: center;
+  gap: 20px;
+}
+@mixin box($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+// @mixin font-size1($font-name, $font-size, $font-weight) {
+//   font-family: "Nunito", sans-serif;
+//   font-family: 'Poppins', sans-serif;
+
+// }
+@mixin flex2() {
+  display: flex;
+}
+@mixin flex3() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex4() {
+  display: flex;
+  justify-content: space-around;
+}
+@mixin flex5() {
+  display: flex;
+  column-gap: 44px;
+}
+@mixin flex6() {
+  display: flex;
+  column-gap: 40px;
+}

@@ -1,0 +1,54 @@
+@media (max-width:1440px) {
+    .top-navbar-list {
+        display: none;
+    }
+
+    ul.navbar-list {
+        display: none;
+    }
+
+    button.btn {
+        display: none;
+    }
+
+}
+
+@media (min-width:1440px) {
+    .top-navbar {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .top-navbar.icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:1440px) {
+    .top-navbar span {
+        font-size: 14px;
+    }
+
+    .top-navbar.icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .top-navbar .top-navbar-list {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .contact-icon a {
+        display: flex;
+        align-items: center;
+    }
+
+
+}
