@@ -2,11 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
 @import "./mixins";
 .container {
-  max-width: 1950px;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 .top-navbar {
-  // width: 100%;
+  width: 100%;
   height: 55px;
   @include flex3;
 
@@ -41,6 +42,7 @@
 div.navbar {
   @include flex3;
   height: 70px;
+  width: 100%;
   background-color: #ffffff;
   padding: 0 20px 0 20px;
 }
@@ -56,4 +58,121 @@ ul.navbar-list {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
+}
+ul.navbar-list a {
+  color: #212529;
+}
+div.header {
+  height: 719px;
+  background-color: Main/Gradient/1 Color #00730c 81% #fbf6ee 0%;
+  background: linear-gradient(
+    79.58deg,
+    rgba(0, 115, 12, 0.81) -39.14%,
+    rgba(251, 246, 238, 0) 90.23%
+  );
+  .img1 {
+    margin-left: 1.82px;
+    margin-top: 381px;
+    width: 279.82px;
+    background-image: url(./images/head1.png);
+    background-repeat: no-repeat;
+  }
+  .img2 {
+    margin-right: 0.18px;
+    margin-top: 46px;
+  }
+  .header-content {
+    margin-top: 133.11px;
+    max-width: 556px;
+    img {
+      float: left;
+      margin-right: 5px;
+    }
+    span {
+      color: #00730c;
+    }
+    p {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #676767;
+    }
+  }
+  h6 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h2 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 79px;
+  }
+}
+div.header-row {
+  @include flex8;
+}
+div.buttons-row {
+  @include flex10;
+  margin-top: 50px;
+  .button1 {
+    width: 175px;
+    height: 50px;
+    background: #00730c;
+    border-radius: 5px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .button1 > a {
+    color: #ffffff;
+  }
+  .button2 {
+    width: 177px;
+    height: 37px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    @include flex9;
+  }
+  .button2 > a {
+    color: #676767;
+  }
+}
+.tags-row {
+  margin-top: 56px;
+  @include flex2;
+  .circle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(72.71deg, #00730c -83.5%, #f9f9f9 93.84%);
+    border-radius: 35px;
+    line-height: 50px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .box {
+    width: 89px;
+    height: 40px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 10px;
+  }
 }

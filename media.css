@@ -11,6 +11,27 @@
         display: none;
     }
 
+
+
+    .header {
+        height: 719px;
+    }
+
+    div.header-row {
+
+        flex-direction: column-reverse;
+        /* justify-content: flex-end; */
+        /* align-items: flex-start; */
+    }
+
+    div.header .header-content {
+        margin-top: 48.53px;
+    }
+
+    div.header .img2 {
+        margin-top: 0px;
+    }
+
 }
 
 @media (min-width:1440px) {
@@ -27,6 +48,72 @@
     .top-navbar.icon {
         width: 20px;
         height: 20px;
+    }
+
+    .container {
+        min-width: 375px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    div.header h6 {
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    div.header h2 {
+
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    div.buttons-row {
+        flex-direction: column;
+    }
+
+    div.buttons-row .button1 {
+        width: 303px;
+        height: 44px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    div.buttons-row .button2 {}
+
+    div.buttons-row .button2>a {
+        width: 140px;
+        height: 21.65px;
+        color: #00730c;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+
+    div.header .header-content img {
+        margin-left: 12px;
+        /* fill: #00730c; */
+    }
+
+    div.header .img1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 83px;
+        height: 118px;
+        background-image: url(./images/head1.png);
+    }
+
+    div.header .header-content p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #212529;
+        margin-top: 15px;
     }
 }
 
@@ -48,6 +135,32 @@
     .contact-icon a {
         display: flex;
         align-items: center;
+    }
+
+    div.call-us-button {
+        width: 170px;
+        height: 50px;
+        background-color: #00730c;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img.menu {
+        display: none;
+    }
+
+    div.top-navbar {
+        height: 59px;
+    }
+
+    div.navbar {
+        height: 85px;
     }
 
 

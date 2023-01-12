@@ -33,3 +33,24 @@
   display: flex;
   column-gap: 40px;
 }
+@mixin flex7() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex8() {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+@mixin flex9() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex10() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 30px;
+}
